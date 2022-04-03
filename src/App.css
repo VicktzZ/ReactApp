@@ -1,5 +1,26 @@
 main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+  min-height: 100%;
+  width: 85%;
+  border: red 5px dotted;
+}
+
+header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 15%;
+  border: lightgray 1px solid;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo p{
+  font-size: 3.3vw;
 }
