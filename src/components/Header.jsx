@@ -3,19 +3,18 @@ let startupName = 'Routiny'
 let username = 'Vitor'
 
 export default () => 
-        <header>
+        <header className="sideBar">
             <div className="titulo">
                 <p>{startupName}</p>
                 <hr />
             </div>
-                <p>bem vindo {username}!</p>
-                <nav>
+                <p>Bem-vindo {username}!</p>
+                <nav className="nav">
                     <ul>
                         <li>Dashboard</li>
                         <li>Rotinas</li>
                         <li>Afazeres</li>
                         <li>School Mode</li>
-                        <li>Logout</li>
                     </ul>   
                 </nav>
         </header>

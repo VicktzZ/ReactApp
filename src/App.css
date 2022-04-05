@@ -2,9 +2,11 @@ main {
   min-height: 100%;
   width: 85%;
   border: red 5px dotted;
+  overflow: auto;
 }
 
-header{
+.sideBar{
+  padding: 10px;
   display: flex;
   justify-content: start;
   align-items: center;
